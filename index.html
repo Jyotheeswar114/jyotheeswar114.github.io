@@ -4,76 +4,104 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Jyotheeswar own website">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <title>Jyotheeswar's Site</title>
+    <title>Jyotheeswar's site</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.0.6/material.grey-pink.min.css" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-pink.min.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 
 <body>
-  <!--
-  <h2 class="feature">Projects</h2>
-    <ul>Shell</ul>
-    <ul>Modified Xv6</ul>
-    <ul>Small game using python</ul>
-  <h2 class="feature">Education</h2>
-    <ul>persuing Btech in CSE at IIITH</ul>
-    <ul>Did PUC(which is equals to intermediate) at RGUKT RK Valley</ul>
-    <ul>studied at ZPHS Yadiki</ul>
-  <h2 class="feature">Hobbies</h2>
-    <ul>Participatng coding contests</ul>
-    <ul>Listening Songs</ul>
-    <ul>Roaming Outside</ul>
-  <h2 class="feature">Contact</h2>
-    <ul>mail : jyotheeswarganne60@gmail.com</ul>
-    <ul>Facebook : Jyotheeswar Ganne</ul>-->
-  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-      <header class="mdl-layout__header">
-          <div class="mdl-layout__header-row">
-              <span class="mdl-layout__title">Welcome</span>
-              <div class="mdl-layout-spacer"></div>
-              <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
-                  <a class="mdl-navigation__link" href="#">Portfolio</a>
-                  <a class="mdl-navigation__link" href="#">Blog</a>
-                  <a class="mdl-navigation__link" href="#">About</a>
-                  <a class="mdl-navigation__link" href="#">Contact</a>
-              </nav>
-          </div>
-      </header>
-      <div class="mdl-layout__drawer">
-          <span class="mdl-layout__title">Simple portfolio website</span>
-          <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
-              <a class="mdl-navigation__link" href="#">Portfolio</a>
-              <a class="mdl-navigation__link" href="#">Blog</a>
-              <a class="mdl-navigation__link" href="#">About</a>
-              <a class="mdl-navigation__link" href="#">Contact</a>
-          </nav>
-      </div>
-      <main class="mdl-layout__content">
-        <div class="mdl-grid">
-          <div class="mdl-cell mdl-cell--12-col">
-              <p>Hello world!</p>
-          </div>
-          <div class="mdl-cell mdl-cell--12-col-tablet">Cell 1</div>
-          <div class="mdl-cell mdl-cell--4-col-tablet">Cell 2</div>
-          <div class="mdl-cell mdl-cell--4-col-tablet">Cell 3</div>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header mdl-layout__header--waterfall portfolio-header">
+            <div class="mdl-layout__header-row portfolio-logo-row">
+                <span class="mdl-layout__title">
+                    <span class="mdl-layout__title">Jyotheeswar Ganne</span>
+                </span>
+            </div>
+            <div class="mdl-layout__header-row portfolio-navigation-row mdl-layout--large-screen-only">
+                <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+                    <a class="mdl-navigation__link is-active" href="index.html">Portfolio</a>
+                    <a class="mdl-navigation__link" href="pages/blog.html">Blog</a>
+                    <a class="mdl-navigation__link" href="pages/about.html">About</a>
+                    <a class="mdl-navigation__link" href="pages/contact.html">Contact</a>
+                </nav>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer mdl-layout--small-screen-only">
+            <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+                <a class="mdl-navigation__link is-active" href="index.html">Portfolio</a>
+                <a class="mdl-navigation__link" href="pages/blog.html">Blog</a>
+                <a class="mdl-navigation__link" href="pages/about.html">About</a>
+                <a class="mdl-navigation__link" href="pages/contact.html">Contact</a>
+            </nav>
         </div>
-        <footer class="mdl-mini-footer">
-          <div class="mdl-mini-footer__left-section">
-              <div class="mdl-logo">Jyotheeswar's  website</div>
-          </div>
-          <div class="mdl-mini-footer__right-section">
-              <ul class="mdl-mini-footer__link-list">
-                  <li><a href="#">Help</a></li>
-                  <li><a href="#">Privacy & Terms</a></li>
-              </ul>
-          </div>
-        </footer>
-      </main>
-  </div>
-    <script src="https://code.getmdl.io/1.0.6/material.min.js"></script>
+        <main class="mdl-layout__content">
+            <div class="mdl-grid portfolio-max-width">
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src="images/river_game.png" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Cross the River (Game)</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        It is a two player game. each player will get a turn. In their turn they should cross the river. Two types of obstacles stop player. 
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="pages/portfolio-example01.html">Read more</a>
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        
+                        <img class="article-image" src="images/shell.png" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Interactive User Defined Shell</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        It is user defined shell which can run builtin commands and commands using execvp. 
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="pages/portfolio-example01.html">Read more</a>
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src="images/book.png" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Algo World (Book)</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        It is a book that explains algorithms useful in different fields.
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="portfolio-example01.html">Read more</a>
+                    </div>
+                </div>
+                
+                
+                
+               
+            </div>
+            <footer class="mdl-mini-footer">
+                <div class="mdl-mini-footer__left-section">
+                    <div class="mdl-logo">Jyotheeswar's Website</div>
+                </div>
+                <div class="mdl-mini-footer__right-section">
+                    <ul class="mdl-mini-footer__link-list">
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Privacy & Terms</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </main>
+    </div>
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 </body>
 
 </html>
