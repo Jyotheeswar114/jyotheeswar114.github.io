@@ -166,5 +166,10 @@ img.article-image {
 footer {
   background-image: url(images/footer-background.png);
   background-size: cover;
+  position: absolute  ;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
 }
 
